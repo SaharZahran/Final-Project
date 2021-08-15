@@ -1,0 +1,51 @@
+body {
+  height: auto;
+}
+
+.courses .col .card{
+    height: 600px;
+    overflow: hidden;
+    transition: transform 0.7s ease-in;
+}
+.courses .col .card:hover{
+    height: 600px;
+    overflow: hidden;
+    transform: scale(1.05);
+    box-shadow:5px 5px 5px  #3BBA9C, -5px -5px 5px  #3BBA9C;
+}
+.courses .container .statistics {
+    display: flex;
+    justify-content: space-evenly;
+    background: none;
+    color:#2E3047;
+    padding: 10px;
+    font-size: 25px;
+}
+.courses .container .statistics {
+  margin-bottom: 10px;
+}
+.courses .container .row .col .card {
+    background-color: #70779321;
+}
+.courses .container .row .col .card img{
+  width:100%;
+  height: 250px;
+}
+.course {
+  text-decoration: none;
+  color: #2E3047;
+}
+.course .card-title:hover {
+  color: #3BBA9C;
+  transform: scale(1.2);
+}
+.fa-star, .fa-star-half-alt {
+    font-size: 30px;
+    color: rgba(255, 217, 0, 0.692);
+}
+.dark-star {
+  color: rgb(136, 133, 128);
+}
+.price {
+  font-size: 24px;
+}

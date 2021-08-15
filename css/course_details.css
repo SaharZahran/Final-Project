@@ -1,0 +1,50 @@
+body {
+    color: #2E3047;
+}
+.duration {
+    padding: 15px;
+    width: 100%;
+    font-size: 19px;
+}
+.time {
+    float:right;
+}
+.card .btn {
+    border: 1px solid #2E3047;
+    background-color: #3BBA9C;
+    color: rgba(255, 255, 255, 0.829);
+    font-weight: bold;
+    margin: 10px 10%;
+    padding: 5px 48px;
+}
+video {
+    width: 74%;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+.card a {
+    text-decoration: none;
+    color: #2E3047;
+    
+}
+.card a:hover {
+    color:#3BBA9C;
+    transform: scale(1.2);
+}
+@media (max-width:768px) {
+    .card .btn {
+        margin-left: 35%;
+    }
+    video {
+        width: 100%;
+        height: 500px;
+    }
+}
+@media (max-width:576px) {
+    .card .btn {
+        margin-left: 20%;
+    }
+    video {
+        width: 100%;
+        height: 300px;
+    }
+}

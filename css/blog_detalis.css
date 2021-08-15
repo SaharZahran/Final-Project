@@ -1,0 +1,35 @@
+body {
+    height: auto;
+}
+
+.blog_details .container .card {
+    background-color: #70779342;
+}
+.blog_details .card p {
+    font-size: 19px;
+}
+.blog_details .card h2, .blog_details .card h3 {
+     margin: 20px 0;
+     
+     font-size: #70779342;
+}
+
+.blog_details .card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    background-color: rgba(76, 39, 85, 0.26);
+    border-radius: 10%;
+}
+
+form .btn {
+    background-color: rgba(76, 39, 85, 0.774);
+    color: white;
+}
+@media (max-width:576px) {
+    img{
+        height: 200px;
+    }
+}

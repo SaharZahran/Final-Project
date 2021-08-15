@@ -1,0 +1,89 @@
+/* Start Jumbotron */
+body {
+    height: auto;
+}
+.jumbotron {
+    background-color: rgba(121, 118, 118, 0.219);
+    height: auto;
+    padding: 30px;
+    color: white;
+}
+
+.jumbotron-fluid {
+    background: url('../images/coding-photo_md.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    color: white;
+}
+
+
+.jumbotron-fluid .breadcrumb ol li{
+    color: white;
+}
+/* End Jumbotron */
+
+
+/* Start Blogs */
+.blogs .jumbotron {
+    background-color: #7077932f;
+}
+.blogs .jumbotron .blog_info h1, .blogs .jumbotron p, .blogs .jumbotron span{
+    color: #2E3047;
+}
+.blogs .jumbotron a {
+    background-color: #3BBA9C;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.blogs .btn:hover {
+    background-color: rgba(51, 51, 51, 0.171);
+    color: rgba(128, 0, 128, 0.514);
+    border: 1px solid rgba(128, 0, 128, 0.514);
+    font-weight: bolder;
+}
+
+.blogs img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+}
+
+.blogs .jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.blogs .jumbotron h1 {
+    color: rgba(54, 13, 54, 0.726);
+}
+@media (max-width:768px) {
+    .blogs img {
+    height: 100%;
+    } 
+} 
+@media (max-width:576px) {
+    .blogs .jumbotron {
+        flex-direction:column-reverse;
+    }  
+    .blogs img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .blogs .jumbotron .blog_info a {
+      padding: 5px 50px;
+      margin-left: 20%;
+    }
+    .blogs .jumbotron h1 {
+        text-align: center;
+    }
+    .pagination {
+        margin-left: 18%;
+    }
+}
+
+
+/* End Blogs */
